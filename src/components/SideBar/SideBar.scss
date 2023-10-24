@@ -1,0 +1,30 @@
+.nav {
+  width: 200px;
+  background-color: var(--dark-color);
+  box-shadow: 10px 0 10px var(--dark-color);
+}
+
+.nav__list {
+  list-style-type: none;
+}
+
+.nav__item {
+  margin-bottom: 15px;  
+}
+
+.nav__link {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav__link:hover {
+  opacity: 0.8;
+}
+
+.active {
+  color: rgb(0, 128, 0);
+  font-weight: bold;
+  text-decoration: underline;
+}

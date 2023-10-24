@@ -1,0 +1,15 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  min-height: calc(100vh - 214px);
+  margin: 60px auto 0;
+  padding: 10px 16px 44px;
+}

@@ -1,0 +1,21 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 60px;
+  background-color: var(--dark-color);
+  color: #fff;
+  box-shadow: 0 10px 10px var(--dark-color);
+}
+
+.favicon {
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+}

@@ -1,0 +1,78 @@
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.order-item:hover {
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.8);
+}
+
+.order-title {
+  width: 40%;
+}
+
+.order-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.order-info-full {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.order-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.burger-icon {
+  width: 32px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.burger-icon:hover {
+  transform: scale(1.2);
+}
+
+.remove-icon {
+  width: 32px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.remove-icon:hover {
+  transform: scale(1.2);
+}
+
+.price {
+  margin-left: 30px;
+}
+
+.point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  background-color: var(--dark-color);
+  width: 24px;
+  height: 120px;
+  margin-right: -24px;
+  margin-top: -24px;
+  margin-bottom: -24px;
+}

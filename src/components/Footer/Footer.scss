@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(56, 138, 56);
+  box-shadow: 0 -10px 10px var(--dark-color);
+}
+
+.footer__link {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer__link:hover {
+  color: #ccc;
+}
