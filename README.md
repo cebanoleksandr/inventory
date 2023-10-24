@@ -8,3 +8,6 @@ On the contact page you can find all the information about the developer of this
 
 In the footer of the site there is a link to the contact page.
 
+You can see the website on `https://cebanoleksandr.github.io/inventory/`
+Also you can watch the demo video `https://youtu.be/SsANkCUZx1k?si=eZWu-6I81is-vVV1`
+
